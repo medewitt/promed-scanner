@@ -1,0 +1,13 @@
+Imports:
+    data.table,
+    rvest,
+    httr,
+    magrittr,
+    ggplot2,
+    lubridate,
+    dplyr,
+    RCurl,
+    curl,
+    here,
+    fs,
+    stringr
