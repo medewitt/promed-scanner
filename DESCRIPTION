@@ -10,4 +10,5 @@ Imports:
     curl,
     here,
     fs,
-    stringr
+    stringr,
+    yaml
