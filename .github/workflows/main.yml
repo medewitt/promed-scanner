@@ -59,6 +59,7 @@ jobs:
           CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
         run: |-
           Rscript -e "source('pull-data.R')"
+          Rscript -e "source('combine-results.R')"
       - name: Commit results
         run: |
           git config --local user.email "action@github.com"
