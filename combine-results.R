@@ -19,6 +19,19 @@ writeLines(c(
   '<!DOCTYPE html><html lang="en">',
   '<head>',
   '<style>
+    html {
+      max-width: 70ch;
+      padding: 3em 1em;
+      margin: auto;
+      line-height: 1.75;
+      font-size: 1.25em;
+     }
+     h1,h2,h3,h4,h5 {
+     margine: 3em 0 1em;       
+}
+p {
+margin-bottom: 3em;
+}
     table,tr,th,td{
       border:1px solid black;
     }
